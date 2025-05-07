@@ -44,7 +44,7 @@ function NewsScreen() {
     id: i.toString(),
     title: `Заголовок новини ${i + 1}`,
     date: "Дата новини",
-    snippet: "Короткий текст новини...",
+    snippet: "Короткий текст новини",
   }));
 
   const renderItem = ({ item }) => (
